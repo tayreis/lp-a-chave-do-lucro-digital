@@ -5,20 +5,35 @@
     text-align: center;
     padding: var(--pad-container);
     gap: var(--gap-container);
-    background-color: var(--bg-container);
+    background-color: var(--bg-aqua);
+    
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-container);
+
 }
 
 .title {
     font-size: var(--title-sm);
-    color: var(--bg-aqua);
+
     
 }
 
+.title strong {
+    background-color: var(--bg-pink);
+    font-size: var(--title-sm);
+
+}
+
 .guideCover {
-    width: auto;
-    display: inline-flex;
+    width: max-content;
+    
 }
 
 .description {
-    font-size: var(--description-sm);
+    font-size: var(--title-sm);
 }
