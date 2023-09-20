@@ -17,9 +17,9 @@ export default function Main() {
             <Hero/>
             <BenefitsSection/>
             <Contents/>
-            <Info/>
-            <Bonus/>
             <Testimonials/>
+            <Bonus/>
+            <Info/>
             <CTA/>
             <Guarantee/>
             <Footer/>

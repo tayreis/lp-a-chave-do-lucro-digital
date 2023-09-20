@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { content } from "../../json/db.json"
 import styles from "../styles/content.module.css"
-import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Autoplay, Navigation } from 'swiper/modules';
 import Image from 'next/image';
 import keyImage from "../img/key-img.png"
 
@@ -29,7 +29,8 @@ export default function Contents(){
                         disableOnInteraction: true,
                       }}     
                     pagination={{clickable: true}}
-                    modules={[EffectCoverflow, Pagination, Autoplay]}
+                    navigation={true}
+                    modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
                     breakpoints={{
                         375: {slidesPerView: 1},
                         475: {slidesPerView: 1},

@@ -112,6 +112,15 @@
         }
     ],
 
+    "info": [
+        {
+            "id": "info1",
+            "text": "Talvez você tenha tentado transformar suas redes sociais em um negócio, se aprofundado nos segredos do Facebook ou até mesmo sonhado em ganhar uma renda extra com suas habilidades, mas o vasto universo digital pode ter te desanimado sem o caminho certo a seguir. Procurou estratégias para ampliar seu engajamento ou como transformar seu amor pelas redes sociais em retorno financeiro, porém sempre pareceu um desafio inalcançável.",
+            "text2": "NÃO MAIS. Com nosso guia, cada plataforma de mídia social vira uma mina de oportunidades. Estamos aqui para te orientar!",
+            "text3": "Ele é a chave mestra que abrirá as portas para você monetizar as redes sociais, implementar estratégias de marketing certeiras e convertê-las em uma fonte lucrativa.Endossado e aclamado por diversos principiantes, nosso guia já empoderou inúmeros indivíduos, como o Roberto, a se lançar na jornada digital e dominar a ciência da monetização de mídias sociais.Dê o primeiro passo rumo a um universo onde cada capítulo, cada insight, te conduz rumo ao seu triunfo digital."
+        }
+    ],
+
     "bonus": [
         {
             "id": "bs1",
@@ -158,9 +167,27 @@
     "testimonials": [
         {
             "id": "tst1",
-            "description": "",
-            "name": "",
-            "selfie": ""
+            "description": "Caramba! Com esse e-book, vi que dá pra transformar o que eu curtia fazer nas horas vagas em grana de verdade. Hoje, toco páginas de alguns clientes e é incrível ver tudo funcionando.",
+            "name": "Fernanda L.",
+            "selfie": "/tst1.png"
+        },
+        {
+            "id": "tst2",
+            "description": "Mano, esses bônus são demais! Me deram um up no que eu já tinha aprendido e, de verdade, tô bem mais à vontade pra conversar com clientes agora.",
+            "name": "Pedro H.",
+            "selfie": "/tst2.png"
+        },
+        {
+            "id": "tst3",
+            "description": "Em um mês, só seguindo as dicas desse guia, meu Instagram bombou! Engajamento lá em cima. Super recomendo.",
+            "name": "Carla M.",
+            "selfie": "/tst3.png"
+        },
+        {
+            "id": "tst4",
+            "description": "Quem diria, né? Estava meio perdido, mas esse e-book me mostrou um caminho massa. Hoje, tiro uma grana extra fazendo posts e conectando a galera online. Muito top!",
+            "name": "Gabriel R.",
+            "selfie": "/tst4.png"
         }
     ]
 }

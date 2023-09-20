@@ -10,23 +10,29 @@
 .title {
     font-size: var(--title-sm);
 }
+
 .title span {
-    background-color: var(--bg-aqua);
+    background-color: var(--bg-pink);
 }
 
 .inner {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-
-}
-
-.elements {
-    padding: 1.5rem;
-}
-
-.elements:hover {
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
     background: var(--bg-pink);
     background: var(--color-gradient);
     border-radius: 20px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.name {
+    font-weight: bold;
 }

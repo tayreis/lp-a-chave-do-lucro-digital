@@ -1,9 +1,9 @@
 import { buttons } from "../../json/db.json"
 import  styles from "../styles/buttons.module.css"
 
-var btn = JSON.parse('{"title": "Comece Sua Transformação Digital Agora!"}')
+var btn = JSON.parse('{"title": "Junte-se aos Vencedores! Adquira Já!"}')
 
-export default function Button() {
+export default function ButtonTestimonials() {
     return (
             <div>
                 <button className={styles.btn1}>{btn.title}</button>
