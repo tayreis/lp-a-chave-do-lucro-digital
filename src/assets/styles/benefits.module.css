@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: var(--gap-container);
+    padding: var(--pad-container);
+    background-color: var(--bg-container);
+}
+
+.title {
+    font-size: var(--title-sm);
+}
+.title span {
+    color: var(--color-span);
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.elements {
+    padding: 1.5rem;
+}
+
+.elements:hover {
+    background: var(--bg-pink);
+    background: var(--color-gradient);
+    border-radius: 20px;
+}

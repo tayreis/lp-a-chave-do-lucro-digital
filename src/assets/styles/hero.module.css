@@ -1,0 +1,27 @@
+.container {
+    background-image: url(/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    gap: var(--gap-container);
+    padding: var(--pad-container);
+
+}
+
+.guideCover {
+    width: auto;
+    display: inline-flex;
+}
+
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem 1.5rem;
+}

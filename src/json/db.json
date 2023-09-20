@@ -1,0 +1,166 @@
+{   
+    "buttons": [
+        {   
+            "id": "btn1",
+            "title": "QUERO COMEÇAR AGORA"
+            
+        },
+        {   
+            "id": "btn2",
+            "title": "Desbloqueie o Poder das Redes Sociais!"
+            
+        },
+        {   
+            "id": "btn3",
+            "title": "Desbloqueie o Poder das Redes Sociais!"
+            
+        },
+        {   
+            "id": "btn4",
+            "title": "Desbloqueie o Poder das Redes Sociais!"
+            
+        },
+        {   
+            "id": "btn5",
+            "title": "Desbloqueie o Poder das Redes Sociais!"
+            
+        }
+    ],
+
+    "hero": [
+        {   
+            "id": "hero",
+            "title": "Desbloqueie o Poder das Redes Sociais!",
+            "description": "Já pensou em transformar seu tempo online em renda? Conheça A Chave do Lucro Digital e descubra como se tornar um Social Media de sucesso, dominando as redes e lucrando com sua presença digital. Não fique para trás, é hora de sua revolução digital!"
+        }
+    ],
+    "benefits": [
+        {   
+            "id": "bnfs1",
+            "icon": "/media.png",
+            "alt": "Imagem celular",
+            "title": "Apaixonados por Redes Sociais",
+            "description": "Transforme sua paixão em lucro! Se você já adora passar horas nas redes sociais, por que não ser pago por isso? Domine as técnicas e ferramentas necessárias para ser um Social Media de sucesso e comece a ganhar dinheiro fazendo o que ama."
+        },
+        {   
+            "id": "bnfs2",
+            "icon": "/social.png",
+            "alt": "Imagem social",
+            "title": "Profissionais Autônomos",
+            "description": "Quer ampliar sua base de clientes? As redes sociais são ferramentas poderosas para alcançar e engajar clientes potenciais. Domine as estratégias do marketing digital e torne-se a primeira escolha em sua área de especialização."
+        },
+        {   
+            "id": "bnfs3",
+            "icon": "/rocket.png",
+            "alt": "Imagem foguete",
+            "title": "Profissionais em Transição de Carreira",
+            "description": "Mudando de rumo ou buscando diversificar suas habilidades? Seja um especialista em mídias sociais. Com nosso guia, adquira conhecimentos práticos e comece a oferecer serviços de Social Media, abrindo uma nova e lucrativa fonte de renda."
+        }
+    ],
+    
+
+    "content": [
+        {
+            "id": "cnt1",
+            "title": "Definindo Objetivos",
+            "description": "Estabeleça metas claras e alcançáveis para orientar sua trajetória nas mídias sociais."
+        },
+        {
+            "id": "cnt2",
+            "title": "Conhecendo sua Audiência",
+            "description": "Descubra como identificar e compreender seu público-alvo, maximizando sua comunicação e eficácia."
+        },
+        {
+            "id": "cnt3",
+            "title": "Escolhendo Plataformas Adequadas",
+            "description": "Entenda o objetivo de cada plataforma e selecione aquelas que melhor atendem às suas necessidades."
+        },
+        {
+            "id": "cnt4",
+            "title": "Criando Conteúdo de Qualidade ",
+            "description": "Domine as técnicas de produção de conteúdo que engaja, educa e converte."
+        },
+        {
+            "id": "cnt5",
+            "title": "O Poder do Design",
+            "description": "Entenda a importância do visual no marketing digital e aprenda a criar designs atraentes e eficazes."
+        },
+        {
+            "id": "cnt6",
+            "title": "SEO - Otimização para Motores de Busca",
+            "description": "Garanta que seu conteúdo seja encontrado facilmente e ranqueie bem nas pesquisas."
+        },
+        {
+            "id": "cnt7",
+            "title": "Hashtags Relevantes",
+            "description": "Utilize hashtags estratégicas para ampliar seu alcance e conectar-se com uma audiência maior."
+        },
+        {
+            "id": "cnt8",
+            "title": "Publicar Regularmente",
+            "description": "Mantenha a consistência e construa um relacionamento duradouro com seu público."
+        },
+        {
+            "id": "cnt9",
+            "title": "Ferramentas de Agendamento ",
+            "description": "Otimize seu tempo e garanta postagens no momento certo, sempre."
+        },
+        {
+            "id": "cnt10",
+            "title": "Monitorando Métricas",
+            "description": "Acompanhe e analise seus resultados para aprimorar constantemente sua estratégia."
+        }
+    ],
+
+    "bonus": [
+        {
+            "id": "bs1",
+            "icon": "/gift.png",
+            "title": "Bônus 1: Briefing para Iniciantes",
+            "subtitle": "Dê o Primeiro Passo Com Confiança!",
+            "description": "Domine as etapas-chave para um briefing eficaz e comece sua jornada no marketing digital com o pé direito.",
+            "background-color": "var(--bg-aqua)"
+        },    
+        {
+            "id": "bs2",
+            "icon": "/gift.png",
+            "title": "Bônus 2: Proposta de Marketing Digital",
+            "subtitle": "Cause Impacto Imediato!",
+            "description": "Faça uma proposta detalhada, destacando seus serviços de marketing digital para potenciais clientes.",
+            "background-color": "var(--bg-pink)"
+        },    
+        {
+            "id": "bs3",
+            "icon": "/gift.png",
+            "title": "Bônus 3: Desmistificando Objeções",
+            "subtitle": "Transforme Hesitações em Vendas!",
+            "description": "Aprenda estratégias valiosas para superar objeções comuns e converta dúvidas em oportunidades lucrativas.",
+            "background-color": "var(--bg-aqua)"
+        },    
+        {
+            "id": "bs4",
+            "icon": "/gift.png",
+            "title": " Bônus 4: Funções de um Social Media",
+            "subtitle": "Entenda e Domine o Seu Papel!",
+            "description": "Explore a profundidade das funções e responsabilidades de um Social Media e destaque-se na área.",
+            "background-color": "var(--bg-pink)"
+        },    
+        {
+            "id": "bs5",
+            "icon": "/gift.png",
+            "title": "Bônus 5: Calendário Editorial",
+            "subtitle": "Conquiste seu primeiro Cliente!",
+            "description": "Otimize suas estratégias com um passo a passo do que postar nas suas redes em 30 dias.",
+            "background-color": "var(--bg-aqua)"
+        }  
+    ],
+
+    "testimonials": [
+        {
+            "id": "tst1",
+            "description": "",
+            "name": "",
+            "selfie": ""
+        }
+    ]
+}
