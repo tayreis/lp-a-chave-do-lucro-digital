@@ -117,7 +117,7 @@
             "id": "info1",
             "text": "Talvez você tenha tentado transformar suas redes sociais em um negócio, se aprofundado nos segredos do Facebook ou até mesmo sonhado em ganhar uma renda extra com suas habilidades, mas o vasto universo digital pode ter te desanimado sem o caminho certo a seguir. Procurou estratégias para ampliar seu engajamento ou como transformar seu amor pelas redes sociais em retorno financeiro, porém sempre pareceu um desafio inalcançável.",
             "text2": "NÃO MAIS. Com nosso guia, cada plataforma de mídia social vira uma mina de oportunidades. Estamos aqui para te orientar!",
-            "text3": "Ele é a chave mestra que abrirá as portas para você monetizar as redes sociais, implementar estratégias de marketing certeiras e convertê-las em uma fonte lucrativa.Endossado e aclamado por diversos principiantes, nosso guia já empoderou inúmeros indivíduos, como o Roberto, a se lançar na jornada digital e dominar a ciência da monetização de mídias sociais.Dê o primeiro passo rumo a um universo onde cada capítulo, cada insight, te conduz rumo ao seu triunfo digital."
+            "text3": "Ele é a chave mestra que abrirá as portas para você monetizar as redes sociais, implementar estratégias de marketing certeiras e convertê-las em uma fonte lucrativa.Endossado e aclamado por diversos principiantes, nosso guia já empoderou inúmeros indivíduos, como a Fernanda, a se lançar na jornada digital e dominar a ciência da monetização de mídias sociais.Dê o primeiro passo rumo a um universo onde cada capítulo, cada insight, te conduz rumo ao seu triunfo digital."
         }
     ],
 
@@ -189,5 +189,20 @@
             "name": "Gabriel R.",
             "selfie": "/tst4.png"
         }
+    ],
+
+    "callToAction": [
+        {
+            "id": "promo",
+            "original": "R$79,90",
+            "current": "R$49,90",
+            "convert": ""
+        },
+        {
+            "id":  "normal",
+            "current": "R$79,90",
+            "convert": ""
+        }
+
     ]
 }

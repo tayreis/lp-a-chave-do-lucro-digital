@@ -9,8 +9,8 @@ export default function Hero(){
             <Image className={styles.guideCover} src="/guide-cover.png" width={425} height={300} alt="Capa com o texto: A chave do lucro digital, seu guia definitivo para trasformar as redes sociais em uma máquina de dinheiro." />
                 {hero.map((items) => (
                     <div className={styles.inner} key={items.id}>
-                        <h1 className={styles.title}>{items.title}</h1>
-                        <p className={styles.description}>{items.description}</p>
+                        <h1 className={styles.title}><span>{items.title}</span></h1>
+                        <p className={styles.description}><span>{items.description}</span></p>
                         <Button/>
                     </div>
                 ))}

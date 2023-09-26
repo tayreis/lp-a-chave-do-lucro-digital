@@ -1,0 +1,37 @@
+.container {
+    background-image: url(/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: var(--pad-container);
+    gap: var(--gap-container);
+
+}
+
+.container h3{
+    font-size: var(--title-md);
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.inner p {
+    font-size: var(--description-md);
+    
+}
+.inner p span {
+    text-decoration: line-through;
+    color: var(--bg-orange);
+}
+.inner h1 {
+    font-size: var(--title-xl);
+    color: var(--bg-green);
+}
