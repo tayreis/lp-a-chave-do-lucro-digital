@@ -5,6 +5,7 @@ import { info } from "../../json/db.json"
 export default function Info() {
     return (
         <section className={styles.container}>
+            
             {info.map((texts) => (
                 <div key={texts.id} className={styles.inner}>
                     <p className={styles.title}>{texts.text}</p>

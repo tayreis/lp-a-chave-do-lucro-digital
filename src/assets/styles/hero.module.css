@@ -24,4 +24,16 @@
     text-align: center;
     gap: 2rem;
     padding: 1rem 1.5rem;
+    
+}
+
+.title span {
+     background-color: var(--bg-pink);
+     font-size: var(--description-md);
+}
+
+.description span {
+    background: var(--color-gradient);
+    font-size: var(--title-sm);
+    font-weight: 700;
 }

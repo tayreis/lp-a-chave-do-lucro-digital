@@ -2,9 +2,12 @@
   --title-sm: 1.5rem;
   --title-md: 2.5rem;
   --title-lg: 3rem;
+  --title-xl: 6rem;
   --description-sm: 1rem;
   --description-md: 2rem;
   --description-lg: 2.5rem;
+
+
 
   --color-gradient: radial-gradient(circle, rgba(253, 31, 121,0.7316352566417192) 0%, rgba(21, 173, 178,0.5355568252691701) 100%);
   --color-txt: ;
