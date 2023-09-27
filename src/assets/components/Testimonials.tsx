@@ -8,6 +8,7 @@ export default function Testimonials(){
     return (
         <section className={styles.container}>
             <h3 className={styles.title}>Relatos de Quem Já <span>Abriu as Portas do Sucesso!</span></h3>
+            <div className={styles.items}>
             {testimonials.map((person) => (
                 <div key={person.id} className={styles.inner}>
                     <p className={styles.description}>{person.description}</p>
@@ -17,6 +18,7 @@ export default function Testimonials(){
                     </div>
                 </div>
             ))}
+            </div>
             <ButtonTestimonials/>
 
         </section>

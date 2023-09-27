@@ -3,9 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
     flex-direction: column;
+    align-items: center;
     padding: var(--pad-container);
     gap: var(--gap-container);
 
@@ -15,12 +15,13 @@
     font-size: var(--title-md);
 }
 
+
 .inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-
+    text-align: center;
 }
 
 .inner p {
@@ -34,4 +35,22 @@
 .inner h1 {
     font-size: var(--title-xl);
     color: var(--bg-green);
+}
+
+@media (min-width: 1280px) {
+    .container {
+        flex-direction: row;
+        padding: 6rem;
+        justify-content: space-around;
+
+    }
+    .ctaImg{
+        width: 100vw;
+        height: 100%;
+    }
+
+    .inner {
+        width: 100vw;
+
+    }
 }

@@ -8,12 +8,13 @@
     height: auto;
     gap: var(--gap-container);
     padding: var(--pad-container);
-
+    
 }
 
 .guideCover {
     width: auto;
     display: inline-flex;
+    border-radius: 50px;
 }
 
 
@@ -36,4 +37,27 @@
     background: var(--color-gradient);
     font-size: var(--title-sm);
     font-weight: 700;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        flex-direction: row;
+        align-items: center;
+        padding: 6rem;
+    }
+
+    .guideCover {
+        width: 637.5px;
+        height: 450px;
+
+    }
+
+    .inner {
+
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
+        padding: 1rem;
+        
+    }
 }

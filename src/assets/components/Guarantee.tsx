@@ -5,10 +5,12 @@ import styles from "../styles/garantee.module.css"
 export default function Guarantee(){
     return (
         <section className={styles.container}>
-            <Image src={garanteeImg} width={200} height={200} alt="Imagem de selo de garantia"/>
-            <h1>Compra 100% Segura</h1>
-            <p>Sabemos a importância de confiar na sua compra, especialmente quando se trata de produtos digitais. Por isso, temos um compromisso transparente com você.
-            De acordo com o Código de Defesa do Consumidor, garantimos seu direito de arrependimento. Se, por algum motivo, você não estiver satisfeito com o conteúdo do e-book ou sentir que ele não atende às suas expectativas, pode solicitar o reembolso total do seu investimento.</p>
+            <Image className={styles.img} src={garanteeImg} width={600} height={600} alt="Imagem de selo de garantia"/>
+            <div className={styles.inner}>
+                <h1>Compra 100% Segura</h1>
+                <p>Sabemos a importância de confiar na sua compra, especialmente quando se trata de produtos digitais. Por isso, temos um compromisso transparente com você.
+                    De acordo com o Código de Defesa do Consumidor, garantimos seu direito de arrependimento. Se, por algum motivo, você não estiver satisfeito com o conteúdo do e-book ou sentir que ele não atende às suas expectativas, pode solicitar o reembolso total do seu investimento.</p>
+            </div>
         </section>
     )
 }

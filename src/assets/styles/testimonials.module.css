@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     gap: var(--gap-container);
     padding: var(--pad-container);
     background-color: var(--bg-container);
@@ -14,16 +15,27 @@
 .title span {
     background-color: var(--bg-pink);
 }
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
 
 .inner {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 1.5rem;
     padding: 2rem;
     background: var(--bg-pink);
     background: var(--color-gradient);
     border-radius: 20px;
+    width: 400px;
+    height: 350px;
 }
 
 .person {
@@ -35,4 +47,17 @@
 
 .name {
     font-weight: bold;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        padding: 6rem;
+    }
+
+    .items{
+        flex-wrap: nowrap;
+        gap: 1.5rem;
+        
+    }
+
 }

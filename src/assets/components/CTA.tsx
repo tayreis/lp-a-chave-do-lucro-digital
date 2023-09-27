@@ -12,9 +12,9 @@ const poppins = Poppins({ weight: '700', subsets: ['latin']})
 export default function CTA(){
     return (
         <section className={styles.container}>
-            <div>
-                <Image src={ctaImg} width={300} height={300} alt="desenho de mulher segurando um presente."/>
-            </div>
+
+                <Image className={styles.ctaImg} src={ctaImg} width={400} height={400} alt="desenho de mulher segurando um presente."/>
+
             {callToAction.slice(0,1).map((price) => (
                 <div className={styles.inner} key={price.id}>
                     <p>de <span>{price.original}</span> por apenas</p>

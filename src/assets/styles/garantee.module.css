@@ -5,14 +5,34 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 1rem;
+    gap: var(--gap-container);
     padding: var(--pad-container);
 
 }
 
+.img {
+    width: 50%;
+    height: 50%;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .container h1 {
-    font-size: var(--title-sm);
+    font-size: var(--title-md);
 }
 .container p {
     font-size: var(--description-sm);
+}
+
+@media (min-width: 1280px) {
+    .container {
+        flex-direction: row;
+        padding: 6rem;
+    }
+
+
 }

@@ -37,7 +37,7 @@ export default function Contents(){
                         640: {slidesPerView: 2},
                         768: {slidesPerView: 2},
                         1024: {slidesPerView: 3},
-                        1280: {slidesPerView: 4},
+                        1280: {slidesPerView: 3},
                         1536: {slidesPerView: 4},
                     }}
                     className={styles.swiper}
@@ -46,7 +46,7 @@ export default function Contents(){
                     {content.map((module) => (
                         <SwiperSlide key={module.id} className={styles.swiperSlide}>
                             <div className={styles.inner}>
-                                <Image src={keyImage} width={100} height={100} alt='Imagem de Chave de Ouro'/>
+                                <Image src={keyImage} width={120} height={120} alt='Imagem de Chave de Ouro'/>
                                 <h2 className={styles.slideTitle}>{module.title}</h2>
                                 <p className={styles.slideDescription}>{module.description}</p>
                             </div>
