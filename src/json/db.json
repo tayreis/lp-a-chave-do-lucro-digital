@@ -124,7 +124,6 @@
     "bonus": [
         {
             "id": "bs1",
-            "icon": "/gift.png",
             "title": "Bônus 1: Briefing para Iniciantes",
             "subtitle": "Dê o Primeiro Passo Com Confiança!",
             "description": "Domine as etapas-chave para um briefing eficaz e comece sua jornada no marketing digital com o pé direito.",
@@ -132,7 +131,6 @@
         },    
         {
             "id": "bs2",
-            "icon": "/gift.png",
             "title": "Bônus 2: Proposta de Marketing Digital",
             "subtitle": "Cause Impacto Imediato!",
             "description": "Faça uma proposta detalhada, destacando seus serviços de marketing digital para potenciais clientes.",
@@ -140,7 +138,6 @@
         },    
         {
             "id": "bs3",
-            "icon": "/gift.png",
             "title": "Bônus 3: Desmistificando Objeções",
             "subtitle": "Transforme Hesitações em Vendas!",
             "description": "Aprenda estratégias valiosas para superar objeções comuns e converta dúvidas em oportunidades lucrativas.",
@@ -148,7 +145,6 @@
         },    
         {
             "id": "bs4",
-            "icon": "/gift.png",
             "title": " Bônus 4: Funções de um Social Media",
             "subtitle": "Entenda e Domine o Seu Papel!",
             "description": "Explore a profundidade das funções e responsabilidades de um Social Media e destaque-se na área.",
@@ -156,7 +152,6 @@
         },    
         {
             "id": "bs5",
-            "icon": "/gift.png",
             "title": "Bônus 5: Calendário Editorial",
             "subtitle": "Conquiste seu primeiro Cliente!",
             "description": "Otimize suas estratégias com um passo a passo do que postar nas suas redes em 30 dias.",

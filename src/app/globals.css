@@ -19,7 +19,7 @@
   --bg-container: black;
 
   --gap-container: 5rem;
-  --pad-container: 2rem;
+  --pad-container: 6rem 2rem;
 
 }
 * {
