@@ -6,7 +6,7 @@ var btn = JSON.parse('{"title": "Desbloqueie Seu Potencial no Marketing!"}')
 export default function ButtonBenefits() {
     return (
         <div>
-            <button className={styles.btn1}>{btn.title}</button>
+            <button className={styles.btn3}>{btn.title}</button>
         </div>
     )
 }

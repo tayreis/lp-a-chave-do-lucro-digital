@@ -9,7 +9,7 @@ import keyImage from "../img/key-img.png"
 export default function Contents(){
     return (
         <section className={styles.container}>
-            <h1 className={styles.containerTitle}>Uma Jornada Estruturada no Universo do Marketing Digital</h1>
+            <h1 className={styles.containerTitle}><span>Uma Jornada Estruturada</span> no Universo do Marketing Digital</h1>
                 <Swiper
                     
                     slidesPerView={3}
@@ -32,7 +32,7 @@ export default function Contents(){
                     navigation={true}
                     modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
                     breakpoints={{
-                        375: {slidesPerView: 1},
+                        300: {slidesPerView: 1},
                         475: {slidesPerView: 1},
                         640: {slidesPerView: 2},
                         768: {slidesPerView: 2},
@@ -47,8 +47,8 @@ export default function Contents(){
                         <SwiperSlide key={module.id} className={styles.swiperSlide}>
                             <div className={styles.inner}>
                                 <Image src={keyImage} width={120} height={120} alt='Imagem de Chave de Ouro'/>
-                                <h2 className={styles.slideTitle}>{module.title}</h2>
-                                <p className={styles.slideDescription}>{module.description}</p>
+                                <h2 className={styles.title}>{module.title}</h2>
+                                <p className={styles.description}>{module.description}</p>
                             </div>
                         </SwiperSlide>
                             

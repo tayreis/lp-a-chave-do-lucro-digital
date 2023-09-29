@@ -19,7 +19,7 @@ export default function Testimonials(){
                 </div>
             ))}
             </div>
-            <ButtonTestimonials/>
+            
 
         </section>
     )

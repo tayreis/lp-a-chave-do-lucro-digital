@@ -1,6 +1,7 @@
 import Image from "next/image"
 import styles from "../styles/info.module.css"
 import { info } from "../../json/db.json"
+import ButtonTestimonials from "./ButtonTestimonials"
 
 export default function Info() {
     return (
@@ -12,6 +13,7 @@ export default function Info() {
                     <p className={styles.text3}>{texts.text3}</p>
                 </div>
             ))}
+            <ButtonTestimonials/>
 
         </section>
         
