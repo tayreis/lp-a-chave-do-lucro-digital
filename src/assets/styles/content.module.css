@@ -13,7 +13,12 @@
 }
 
 .containerTitle {
-  font-size: var(--title-sm);
+  font-size: var(--title-mob);
+
+}
+
+.containerTitle span {
+  background-color: var(--bg-pink);
 }
 
 .swiper {
@@ -37,6 +42,23 @@
 
 }
 
-.slideTitle {
-  font-size: 1.50rem;
+.title {
+  font-size: var(--subtitle-mob);
+}
+
+.description {
+  font-size: var(--description-mob);
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding: var(--pad-lg);
+  }
+
+}
+
+@media (min-width: 1890px) {
+  .container {
+      padding: var(--pad-xl);
+  }
 }

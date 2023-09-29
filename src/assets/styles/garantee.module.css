@@ -1,5 +1,7 @@
 .container {
-    background-color: var(--bg-container);
+    background-image: url(/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,17 +24,24 @@
 }
 
 .container h1 {
-    font-size: var(--title-md);
+    font-size: var(--title-mob);
 }
 .container p {
-    font-size: var(--description-sm);
+    font-size: var(--description-mob);
 }
 
 @media (min-width: 1280px) {
     .container {
         flex-direction: row;
-        padding: 6rem;
+        padding: var(--pad-lg);
     }
 
 
+
+}
+
+@media (min-width: 1890px) {
+    .container {
+        padding: var(--pad-xl);
+    }
 }

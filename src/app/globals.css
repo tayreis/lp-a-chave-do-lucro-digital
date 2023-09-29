@@ -7,6 +7,12 @@
   --description-md: 2rem;
   --description-lg: 2.5rem;
 
+  --title-mob: 2rem;
+  --title-web: 3rem;
+  --subtitle-mob: 1.5rem;
+  --subtitle-web: 2rem;
+  --description-mob: 1rem;
+  --description-web: 1rem; 
 
 
   --color-gradient: radial-gradient(circle, rgba(253, 31, 121,0.7316352566417192) 0%, rgba(21, 173, 178,0.5355568252691701) 100%);
@@ -20,6 +26,9 @@
 
   --gap-container: 5rem;
   --pad-container: 6rem 2rem;
+
+  --pad-lg: 6rem;
+  --pad-xl: 6rem 15rem;
 
 }
 * {
