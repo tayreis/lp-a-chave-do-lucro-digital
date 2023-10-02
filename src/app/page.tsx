@@ -1,25 +1,18 @@
 'use client'
 import styles from './page.module.css'
-import { register } from 'swiper/element/bundle';
-
-register();
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/effect-cards';
+import dynamic from 'next/dynamic';
 
 import Hero from '@/assets/components/Hero';
-import BenefitsSection from '@/assets/components/BenefitsSection';
-import Contents from '@/assets/components/Contents';
-import Testimonials from '@/assets/components/Testimonials';
-import Bonus from '@/assets/components/Bonus';
-import Info from '@/assets/components/Info';
-import CTA from '@/assets/components/CTA';
-import Guarantee from '@/assets/components/Guarantee';
-import Footer from '@/assets/components/Footer';
 
+
+const BenefitsSection = dynamic(() => import("@/assets/components/BenefitsSection"));
+const Contents = dynamic(() => import("@/assets/components/Contents"));
+const Testimonials = dynamic(() => import("@/assets/components/Testimonials"));
+const Bonus = dynamic(() => import("@/assets/components/Bonus"));
+const Info = dynamic(() => import("@/assets/components/Info"));
+const CTA = dynamic(() => import("@/assets/components/CTA"));
+const Guarantee = dynamic(() => import("@/assets/components/Guarantee"));
+const Footer = dynamic(() => import("@/assets/components/Footer"));
 
 
 export default function Home() {
