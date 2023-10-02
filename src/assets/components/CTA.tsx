@@ -11,7 +11,7 @@ const poppins = Poppins({ weight: '700', subsets: ['latin']})
 
 export default function CTA(){
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id="CTA">
             <div className={styles.divImg}>
                 <Image className={styles.ctaImg} src={ctaImg} width={350} height={350} alt="desenho de mulher segurando um presente."/>
             </div>
