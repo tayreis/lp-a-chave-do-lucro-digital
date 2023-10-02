@@ -91,8 +91,8 @@
 
     }
 
-    .innerHidden:hover {
-        transition: 0.5s;
+    .innerHidden:hover{
+        transition: 0.8s;
         border: 1px solid var(--bg-pink);
     }
 
@@ -101,9 +101,6 @@
         display: flex;
         flex-direction: column;
         gap: .5rem;
-
-
-
     }
 
 
