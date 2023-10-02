@@ -24,7 +24,7 @@ export default function Bonus(){
                     {bonus.map((gift) => (
                         <SwiperSlide key={gift.id} className={styles.swiperSlide} >
                             <div className={styles.inner}  style={{backgroundColor : gift["background-color"]}}>
-                                <Image src={giftImg} width={100} height={100} alt='Imagem de Caixa de Presente'/>
+                                <Image className={styles.giftImg} src={giftImg} width={100} height={100} alt='Imagem de Caixa de Presente'/>
                                 <h2 className={styles.subtitle}>{gift.title}</h2>
                                 <p className={styles.description}>{gift.subtitle}</p>
                                 <p className={styles.description}>{gift.description}</p>

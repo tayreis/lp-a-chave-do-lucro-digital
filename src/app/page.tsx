@@ -2,9 +2,8 @@
 import styles from './page.module.css'
 import dynamic from 'next/dynamic';
 
-import Hero from '@/assets/components/Hero';
 
-
+const Hero = dynamic(() => import("@/assets/components/Hero"));
 const BenefitsSection = dynamic(() => import("@/assets/components/BenefitsSection"));
 const Contents = dynamic(() => import("@/assets/components/Contents"));
 const Testimonials = dynamic(() => import("@/assets/components/Testimonials"));
