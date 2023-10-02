@@ -42,7 +42,7 @@
 
 .btn3:after {
   animation: glitch 1s 3;
-  animation-delay: 3s;
+  animation-delay: 5s;
   animation-timing-function: steps(2,end);
 }
 
