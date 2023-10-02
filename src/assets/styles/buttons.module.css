@@ -41,7 +41,8 @@
 }
 
 .btn3:after {
-  animation: glitch 1s 5;
+  animation: glitch 1s 3;
+  animation-delay: 3s;
   animation-timing-function: steps(2,end);
 }
 
