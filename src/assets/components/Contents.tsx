@@ -46,7 +46,7 @@ export default function Contents(){
                     {content.map((module) => (
                         <SwiperSlide key={module.id} className={styles.swiperSlide}>
                             <div className={styles.inner}>
-                                <Image src={keyImage} width={120} height={120} alt='Imagem de Chave de Ouro'/>
+                                <Image src={keyImage} width={120} height={120} quality={75} placeholder='blur' alt='Imagem de Chave de Ouro'/>
                                 <h2 className={styles.title}>{module.title}</h2>
                                 <p className={styles.description}>{module.description}</p>
                             </div>
