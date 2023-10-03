@@ -13,7 +13,7 @@ export default function CTA(){
     return (
         <section className={styles.container} id="CTA">
             <div className={styles.divImg}>
-                <Image className={styles.ctaImg} src={ctaImg} width={350} height={350} alt="desenho de mulher segurando um presente."/>
+                <Image className={styles.ctaImg} src={ctaImg} quality={75} placeholder='blur' width={350} height={350} alt="desenho de mulher segurando um presente."/>
             </div>
             {callToAction.slice(0,1).map((price) => (
                 <div className={styles.inner} key={price.id}>

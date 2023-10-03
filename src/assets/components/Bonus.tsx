@@ -24,7 +24,7 @@ export default function Bonus(){
                     {bonus.map((gift) => (
                         <SwiperSlide key={gift.id} className={styles.swiperSlide} >
                             <div className={styles.inner}  style={{backgroundColor : gift["background-color"]}}>
-                                <Image className={styles.giftImg} src={giftImg} width={100} height={100} alt='Imagem de Caixa de Presente'/>
+                                <Image className={styles.giftImg} src={giftImg} width={100} height={100} quality={75} placeholder='blur' alt='Imagem de Caixa de Presente'/>
                                 <h2 className={styles.subtitle}>{gift.title}</h2>
                                 <p className={styles.description}>{gift.subtitle}</p>
                                 <p className={styles.description}>{gift.description}</p>
@@ -40,7 +40,7 @@ export default function Bonus(){
                     {bonus.map((gift) => (
                         <div key={gift.id} className={styles.innerHidden}>
                             <div className={styles.imgContainer}>
-                                <Image className={styles.freeImg} src={freeImg} width={250} height={250} alt='Imagem de Caixa de Presente'/>
+                                <Image className={styles.freeImg} src={freeImg} width={250} height={250} quality={75} placeholder='blur' alt='Imagem de Caixa de Presente'/>
                             </div>
                             <div className={styles.bonusContainer}>
                                 <h2 className={styles.subtitle}>{gift.title}</h2>
