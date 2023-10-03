@@ -1,5 +1,6 @@
 'use client'
 import styles from './page.module.css';
+import styles from './page.module.css';
 import dynamic from 'next/dynamic';
 
 import Hero from '@/assets/components/Hero';
@@ -21,6 +22,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
+
             <Hero/>
             <BenefitsSection/>
             <Contents/>
@@ -30,6 +32,7 @@ export default function Home() {
             <CTA/>
             <Guarantee/>
             <Footer/>
+
 
     </main>
   )
