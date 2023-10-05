@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# A Chave do Lucro Digital - Landing Page
 
-## Getting Started
+![image](https://github.com/tayreis/lp-a-chave-do-lucro-digital/assets/137109278/6a8db709-40aa-41bf-9c72-ed6a9d2212e5)
 
-First, run the development server:
+## 🚀 Introdução
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Esta é uma landing page criada para a venda do e-book "A Chave do Lucro Digital". Projetada para oferecer uma ótima experiência ao usuário em relação a reponsividade, a página é dividida em seções estratégicas que detalham o valor e o conteúdo do e-book, bem como depoimentos de leitores satisfeitos, os bonus oferecidos e garantias.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Seções da Página
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Hero:** Introdução e primeira impressão do que o e-book oferece.
+- **Benefits:** Vantagens e benefícios que o leitor receberá dentro de alguns contextos.
+- **Contents:** Uma visão geral dos tópicos e capítulos abordados no e-book.
+- **Testimonials:** Depoimentos de leitores que já se beneficiaram do conteúdo.
+- **Bonus:** Detalhes de bônus ou conteúdo extra que acompanha a compra.
+- **CTA:** Chamado para ação, incentivando o visitante a fazer a compra.
+- **Guarantee:** Garantias oferecidas para assegurar a satisfação do cliente.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Tecnologias Utilizadas
 
-## Learn More
+- CSS3
+- TypeScript
+- Frameworks ou bibliotecas (React, Next.js)
 
-To learn more about Next.js, take a look at the following resources:
+## 🌐 Implantação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O site está atualmente hospedado no [Vercel](https://vercel.com/) e pode ser acessado [aqui](https://www.marketeersoasis.com/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
