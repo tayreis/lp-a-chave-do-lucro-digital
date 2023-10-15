@@ -35,6 +35,7 @@ export default function RootLayout({
               })(window,document,'script','dataLayer','GTM-T6J5RFDS');
             `}
           </Script>
+        <meta name="facebook-domain-verification" content="atcjnrvz2iywmwdwov6ibnj8foa74g" />
       </head>
       <body className={quicksand.className}>
           <noscript>
