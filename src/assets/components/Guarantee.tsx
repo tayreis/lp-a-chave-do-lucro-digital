@@ -9,7 +9,7 @@ export default function Guarantee(){
             <div className={styles.inner}>
                 <h1>Compra 100% Segura</h1>
                 <p>Sabemos a importância de confiar na sua compra, especialmente quando se trata de produtos digitais. Por isso, temos um compromisso transparente com você.
-                    De acordo com o Código de Defesa do Consumidor, garantimos seu direito de arrependimento. Se, por algum motivo, você não estiver satisfeito com o conteúdo do e-book ou sentir que ele não atende às suas expectativas, pode solicitar o reembolso total do seu investimento.</p>
+                    De acordo com o Código de Defesa do Consumidor, garantimos seu direito de arrependimento dentro de 7 dias corridos após a compra. Se, por algum motivo, você não estiver satisfeito com o conteúdo do e-book ou sentir que ele não atende às suas expectativas, pode solicitar o reembolso total do seu investimento.</p>
             </div>
         </section>
     )
