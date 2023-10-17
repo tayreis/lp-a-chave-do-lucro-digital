@@ -19,15 +19,18 @@ export default function Bonus(){
                     modules={[EffectCards]}
                     loop={true}
                     className={styles.swiper}
+                    
 
                     >   
                     {bonus.map((gift) => (
                         <SwiperSlide key={gift.id} className={styles.swiperSlide} >
                             <div className={styles.inner}  style={{backgroundColor : gift["background-color"]}}>
-                                <Image className={styles.giftImg} src={giftImg} width={100} height={100} quality={75} placeholder='blur' alt='Imagem de Caixa de Presente'/>
-                                <h2 className={styles.subtitle}>{gift.title}</h2>
-                                <p className={styles.description}>{gift.subtitle}</p>
-                                <p className={styles.description}>{gift.description}</p>
+                                <Image className={styles.giftImg} src={giftImg} width={135} height={135} quality={75} placeholder='blur' alt='Imagem de Caixa de Presente'/>
+                                <div>
+                                    <h2 className={styles.subtitle}>{gift.title}</h2>
+                                    <p className={styles.description}>{gift.description}</p>
+                                </div>
+                                
                             </div>
                         </SwiperSlide>
                             

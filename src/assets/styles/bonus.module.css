@@ -28,8 +28,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: .5rem;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     background: var(--bg-pink);
     border-radius: 50px;
@@ -49,6 +50,28 @@
 
 .hidden {
     display: none !important;
+}
+
+@media (min-width: 768px) {
+    .inner{
+        flex-direction: row;
+        padding: 0 6rem;
+        gap: 2rem;
+    }
+
+    .inner div {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: var(--title-mob);
+    }
+    .description{
+        font-size: var(--subtitle-mob);
+
+    }
 }
 
 
@@ -101,6 +124,15 @@
         display: flex;
         flex-direction: column;
         gap: .5rem;
+    }
+    .subtitle {
+        font-size: var(--subtitle-mob);
+        text-shadow: 1px 1px 3px var(--bg-aqua);
+    }
+    
+    .description{
+        font-size: var(--description-mob);
+        text-shadow: 1px 1px 3px var(--bg-aqua);
     }
 
 
