@@ -30,8 +30,8 @@
     "hero": [
         {   
             "id": "hero",
-            "title": "Desbloqueie o Poder das Redes Sociais!",
-            "description": "Já pensou em transformar seu tempo online em renda? Conheça A Chave do Lucro Digital e descubra como se tornar um Social Media de sucesso, dominando as redes e lucrando com sua presença digital. Não fique para trás, é hora de sua revolução digital!"
+            "title": "Transforme Suas Redes Sociais em Ouro!",
+            "description": "Deseja converter seu engajamento online em receita real? Adquira 'A Chave do Lucro Digital' e eleve-se de um entusiasta digital a um Social Media renomado! Domine e monetize sua presença online com estratégias comprovadas. A revolução digital aguarda - junte-se agora!"
         }
     ],
     "benefits": [
@@ -115,9 +115,15 @@
     "info": [
         {
             "id": "info1",
-            "text": "Talvez você tenha tentado transformar suas redes sociais em um negócio, se aprofundado nos segredos do Facebook ou até mesmo sonhado em ganhar uma renda extra com suas habilidades, mas o vasto universo digital pode ter te desanimado sem o caminho certo a seguir. Procurou estratégias para ampliar seu engajamento ou como transformar seu amor pelas redes sociais em retorno financeiro, porém sempre pareceu um desafio inalcançável.",
-            "text2": "NÃO MAIS. Com nosso guia, cada plataforma de mídia social vira uma mina de oportunidades. Estamos aqui para te orientar!",
-            "text3": "Ele é a chave mestra que abrirá as portas para você monetizar as redes sociais, implementar estratégias de marketing certeiras e convertê-las em uma fonte lucrativa.Endossado e aclamado por diversos principiantes, nosso guia já empoderou inúmeros indivíduos, como a Fernanda, a se lançar na jornada digital e dominar a ciência da monetização de mídias sociais.Dê o primeiro passo rumo a um universo onde cada capítulo, cada insight, te conduz rumo ao seu triunfo digital."
+            "title": "🌟Você Está Pronto para uma Transformação Digital?🌟",
+            "text": "Imagine dominar o universo das redes sociais, transformando cada post, cada campanha, em oportunidades lucrativas. Se você já se sentiu sobrecarregado pela complexidade do marketing digital, temos a solução que você estava esperando. Apresentamos um guia revolucionário, meticulosamente desenhado para converter sua paixão pelas redes sociais em uma carreira próspera. Descubra táticas comprovadas e inovadoras, desvendadas em 10 tópicos essenciais que prometem transformar novatos em mestres do marketing digital.",
+            "title2": "💥Por que este eBook é a sua próxima jogada inteligente?💥",
+            "text2a": "✅ Conteúdo Rico e Prático - Mergulhe em estratégias comprovadas para definir objetivos claros, engajar a audiência e criar conteúdo magnético.",
+            "text2b": "✅ Bônus Exclusivos - Receba 5 PDFs adicionais, instrumentos poderosos que potencializam sua jornada, oferecendo insights profundos e ferramentas práticas.",
+            "text2c": "✅ Preço Imbatível - Valor incomparável, uma rica fonte de conhecimento, agora disponível por apenas R$29,90!",
+            "text2d": "Não é apenas um eBook; é um portal para um novo você, equipado, empoderado e pronto para conquistar o cenário digital. Cada página é uma escada para seu sucesso, cada bônus uma joia preciosa agregando valor à sua ascensão meteórica no mundo online.",
+            "title3": "🚀 Embarque nesta Jornada de Empoderamento Digital! 🚀",
+            "text3": "Cada capítulo é uma revelação, cada insight um passo mais perto da maestria nas redes sociais. Você não está apenas adquirindo um guia; está investindo em uma versão aprimorada de si mesmo, armada com o conhecimento e as ferramentas para transformar aspirações em realizações tangíveis."
         }
     ],
 
@@ -162,13 +168,13 @@
     "testimonials": [
         {
             "id": "tst1",
-            "description": "Caramba! Com esse e-book, vi que dá pra transformar o que eu curtia fazer nas horas vagas em grana de verdade. Hoje, toco páginas de alguns clientes e é incrível ver tudo funcionando.",
+            "description": "Este guia foi um divisor de águas para mim. Cada tópico é um passo adiante em direção ao sucesso nas redes sociais. Em um mês, meu conteúdo ganhou visibilidade e meu retorno sobre o investimento disparou!",
             "name": "Fernanda L.",
             "selfie": "/tst1.png"
         },
         {
             "id": "tst2",
-            "description": "Mano, esses bônus são demais! Me deram um up no que eu já tinha aprendido e, de verdade, tô bem mais à vontade pra conversar com clientes agora.",
+            "description": "Antes de descobrir este eBook, eu estava completamente perdido nas redes sociais. Agora, não só aumentei meu engajamento em 150%, mas também comecei a monetizar meu conteúdo. É um game changer!",
             "name": "Pedro H.",
             "selfie": "/tst2.png"
         },
@@ -180,7 +186,7 @@
         },
         {
             "id": "tst4",
-            "description": "Quem diria, né? Estava meio perdido, mas esse e-book me mostrou um caminho massa. Hoje, tiro uma grana extra fazendo posts e conectando a galera online. Muito top!",
+            "description": "Como empresário, tempo é dinheiro. Este eBook não apenas economizou meu tempo, mas multiplicou minha presença online. É como ter um especialista em marketing na palma da sua mão!",
             "name": "Gabriel R.",
             "selfie": "/tst4.png"
         }
