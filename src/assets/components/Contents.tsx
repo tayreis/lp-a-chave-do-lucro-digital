@@ -29,7 +29,7 @@ export default function Contents(){
                         disableOnInteraction: true,
                       }}     
                     pagination={{clickable: true}}
-                    navigation={true}
+                    
                     modules={[EffectCoverflow, Pagination, Autoplay, Navigation]}
                     breakpoints={{
                         300: {slidesPerView: 1},
