@@ -43,7 +43,7 @@ export default function Bonus(){
                     {bonus.map((gift) => (
                         <div key={gift.id} className={styles.innerHidden}>
                             <div className={styles.imgContainer}>
-                                <Image className={styles.freeImg} src={freeImg} width={135} height={135} quality={75} placeholder='blur' alt='Imagem de Caixa de Presente'/>
+                                <Image className={styles.freeImg} src={freeImg} width={250} height={250} quality={75} placeholder='blur' alt='Imagem de Caixa de Presente'/>
                             </div>
                             <div className={styles.bonusContainer}>
                                 <h2 className={styles.subtitle}>{gift.title}</h2>
