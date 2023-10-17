@@ -133,7 +133,7 @@
             "title": "Bônus 1: Briefing para Iniciantes",
             "subtitle": "Dê o Primeiro Passo Com Confiança!",
             "description": "Domine as etapas-chave para um briefing eficaz e comece sua jornada no marketing digital com o pé direito.",
-            "background-color": "var(--bg-aqua)"
+            "background-color": "var(--bg-black)"
         },    
         {
             "id": "bs2",
