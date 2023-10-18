@@ -6,7 +6,7 @@ var btn = JSON.parse('{"title": "Clique e comece sua Transformação Digital!"}'
 
 export default function Button() {
     return (
-            <Link href="#CTA" className={styles.container}>
+            <Link href="https://pay.hotmart.com/A86711842C?checkoutMode=10" className={styles.container}>
                 <button className={styles.btn3}>{btn.title}</button>
             </Link>
     )
