@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Quicksand} from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 
 import { register } from 'swiper/element/bundle';
 
@@ -47,6 +48,7 @@ export default function RootLayout({
           </iframe>
           </noscript>
           {children}
+          <Analytics/>
       </body>
     </html>
   )
