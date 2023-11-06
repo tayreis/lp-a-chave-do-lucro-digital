@@ -1,8 +1,8 @@
 import Image from "next/image";
-import pgts from "../img/pgts.png"
-import ctaImg from "../img/cta-img.png"
-import { callToAction } from "../../json/db.json"
-import styles from "../styles/cta.module.css"
+import pgts from "../img/pgts.png";
+import ctaImg from "../img/cta-img.png";
+import { callToAction } from "../../json/db.json";
+import styles from "../styles/cta.module.css";
 import ButtonCta from "./ButtonCta";
 import { Poppins, Roboto } from "next/font/google";
 
